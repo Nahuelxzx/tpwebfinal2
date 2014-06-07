@@ -1,0 +1,295 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Airlines.com</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" type="text/css" href="css/coin-slider.css" />
+  <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript" src="js/coin-slider.min.js"></script>
+</head>
+<body>
+<div class="main">
+  <div class="header">
+    <div class="header_resize">
+      <div class="logo">
+        <img src="images/mundo.png" alt="logo">
+      </div>
+      <div class="clr"></div>
+      <div class="menu_nav">
+        <ul>
+          <li><a href="index.html"><span> Home </span></a></li>
+          <li class="active"><a href="vuelos.html"><span>Vuelos</span></a></li>
+          <li><a href="check-in.html"><span>Check-in</span></a></li>
+          <li><a href="contacto.html"><span>Contacto</span></a></li>
+        </ul>
+      </div>
+      <div class="clr"></div>
+      <div class="slider">
+        <div id="coin-slider">
+          <img src="images/slide1.jpg" width="960" height="360" alt="" />
+          <img src="images/slide2.jpg" width="960" height="360" alt="" />
+          <img src="images/slide3.jpg" width="960" height="360" alt="" />
+        </div>
+        <div class="clr"></div>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="content_resize">
+      <div class="mainbar">
+        <div class="article">
+          <div class="clr"></div>
+            <form>
+    <h2>Completa tus datos</h2>
+        <h4>Pasajeros</h4>
+    <h5>*campos obligatorios</h5>
+    
+    <h4>Pasajero 1</h4>
+    
+    <!-- --------  comienzo form datos personales ----------- -->
+    <div class="estilo1">
+        <div class="text2">    
+      Apellido:
+        </div>    
+    <div class="campo1">
+      <input id="apellido" type="text" placeholder="apellido">
+        </div>
+    </div>
+    
+    <div class="estilo1">
+        <div class="text2">    
+      Nombre:
+        </div>    
+    <div class="campo1">
+      <input id="nombre" type="text" placeholder="nombre">
+        </div>
+    </div>
+    
+    <div class="estilo1">
+        <div class="text2">    
+      Fecha de nacimiento:
+        </div>    
+    <div class="campo1">
+      <input id="dia" type="text" size="2" placeholder="dia">
+      <input id="mes" type="text" size="2" placeholder="mes">
+      <input id="anio" type="text" size="4" placeholder="anio">
+    </div>
+    </div>
+
+    <div class="estilo1">
+        <div class="text2">    
+      Sexo:
+        </div>    
+    <div class="campo1">
+      <select>
+      <option value="M">masculino</option>
+      <option value="F">femenino</option>
+      </select> 
+        </div>
+    </div>
+    <!-- --------  comienzo form forma de identificacion ----------- -->
+    <h4>Forma de identificacion </h4>
+    
+    <div class="estilo1">
+        <div class="text2">    
+      Tipo de documento:
+        </div>    
+    <div class="campo1">
+    <select>
+    <option value="dni">DNI</option>
+    <option value="le">L.E</option>
+    <option value="lc">L.C</option>
+    </select> 
+        </div>
+    </div>
+    
+    <div class="estilo1">
+        <div class="text2">    
+      Numero de documento:
+        </div>    
+    <div class="campo1">
+    <input id="nro" type="text" placeholder="ingrese numero"> 
+        </div>
+    </div>
+    
+    <div class="estilo1">
+        <div class="text2">    
+      Pais de emision:
+        </div>    
+    <div class="campo1">
+    <input id="pais" type="text" placeholder="ingrese pais">    
+        </div>
+    </div>
+    
+    
+    
+    <!-- --------  comienzo form formas de pago ----------- -->
+    
+    <h4>Forma de pago </h4>
+    
+  <div class="pagos">
+    
+    <div class="estilo1">
+        <div class="text2">
+    1 Pago
+    <input type="radio" name="pago" value="unpago">
+    6 Pagos
+    <input type="radio" name="pago" value="seispago">
+    </div>  
+    </div>    
+       
+    <div class="estilo1">
+        <div class="text2">    
+      Tarjeta:
+        </div>    
+    <div class="campo1">
+    <select>
+    <option value="visa">VISA</option>
+    <option value="american">American Express</option>
+    <option value="master">MasterCard</option>
+    </select> 
+        </div>
+    </div>
+    
+    <div class="estilo1">
+        <div class="text2">    
+      Numero de tarjeta:
+        </div>    
+    <div class="campo1">
+      <input id="nro_tarjeta" type="text" placeholder="ingrese los 16 digitos">
+        </div>
+    </div>
+    
+    <div class="estilo1">
+        <div class="text2">    
+      Vencimiento:
+        </div>    
+    <div class="campo1">
+      <input id="dia_venc" type="text" size="2" placeholder="mes">
+      <input id="anio_venc" type="text" size="4" placeholder="anio">
+    </div>
+    </div>
+    
+    <div class="estilo1">
+        <div class="text2">    
+      Codigo de seguridad:
+        </div>    
+    <div class="campo1">
+      <input id="codigo" type="text" placeholder="codigo">
+        </div>
+    </div>
+    
+      <div class="estilo1">
+        <div class="text2">    
+      Titular de la tarjeta:
+        </div>    
+    <div class="campo1">
+      <input id="nombre_tit" type="text" placeholder="como figura en la tarjeta">
+        </div>
+    </div>
+    
+    <div class="estilo1">
+        <div class="text2">    
+      DNI del titular de la tarjeta:
+        </div>    
+    <div class="campo1">
+      <input id="nombre" type="text" placeholder="dni titular">
+        </div>
+    </div>
+    
+    <div class="estilo1">
+        <div class="text2">    
+      Sexo:
+        </div>    
+    <div class="campo1">
+      <select>
+      <option value="M">masculino</option>
+      <option value="F">femenino</option>
+      </select> 
+        </div>
+    </div>
+    
+  </div>  
+    
+    <!-- --------  comienzo form contacto ----------- -->
+    <h4>Email de contacto </h4>
+    
+    <div class="estilo1">
+        <div class="text2">    
+      Correo electronico:
+        </div>    
+    <div class="campo1">
+    <input id="correo" type="text" placeholder="correo electronico">    
+        </div>
+    </div>
+    
+    <div class="estilo1">
+        <div class="text2">    
+      Verificar Correo electronico:
+        </div>    
+    <div class="campo1">
+    <input id="verificarcorreo" type="text" placeholder="correo electronico">   
+        </div>
+    </div>
+        
+    <div class="button">
+    <button class="btn">Continuar</button>
+        </div>
+</form>
+        </div>
+      </div>
+      <div class="sidebar">
+        <div class="gadget">
+          <h2 class="star"> Menu</h2>
+          <div class="clr"></div>
+          <ul class="sb_menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Vuelos</a></li>
+            <li><a href="#">Check-in</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="gadget">
+          <h2 class="star"><span>Nuevos Destinos</span></h2>
+          <div class="clr"></div>
+          <ul class="sb_menu">
+            <li><a href="#">Mendoza</a></li>
+            <li><a href="#">La Rioja</a></li>
+            <li><a href="#">San Juan</a></li>
+            <li><a href="#">Salta</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="fbg">
+    <div class="fbg_resize">
+      <div class="col c1">
+        <a href="#"><img src="images/face.png" width="75" height="75" alt="" class="gal" /></a> <a href="#"><img src="images/you.png" width="75" height="75" alt="" class="gal" /></a> <a href="#"><img src="images/tew.png" width="75" height="75" alt="" class="gal" /></a> <a href="#"><img src="images/link.png" width="75" height="75" alt="" class="gal" /></a> <a href="#"><img src="images/git.png" width="75" height="75" alt="" class="gal" /></a> <a href="#"><img src="images/g+.png" width="75" height="75" alt="" class="gal" /></a> </div>
+      <div class="col c2">
+        <p>Trabajo Practico Final - Programacion Web II</p>
+        <span>Integrantes:</span>
+        <ul class="fbg_ul">
+          <li><a href="#">Velasco, Romina Giselle</a></li>
+          <li><a href="#">Zerpa, Nadia Lorena</a></li>
+          <li><a href="#">Zurdo, Nahuel Matias</a></li>
+        </ul>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer_resize">
+      <p class="lf">&copy; Copyright <a href="#">UNLaM</a>.</p>
+      <p class="rf">Primer Cuatrimestre 2014</p>
+      <div style="clear:both;"></div>
+    </div>
+  </div>
+</div>
+<div align=center></div>
+</body>
+</html>
